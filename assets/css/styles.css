@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Bodoni Condensed', 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{ list-style: none;}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bodoni Condensed', 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 1.25em;
+}
+
+.bg-darkblue{
+    background-color:rgb(0, 0, 0);
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+i.fa-brands.fa-github.text-white:hover{
+    --bs-text-opacity: 1;
+    color: rgb(0, 233, 0)!important;
+}
+
+i.fa-brands.fa-instagram.text-white:hover{
+    --bs-text-opacity: 1;
+    color: rgb(255, 153, 0)!important;
+}
+
+i.fa-brands.fa-linkedin-in.text-white:hover{
+    --bs-text-opacity: 1;
+    color: rgb(0, 174, 255)!important;
+}
+
+i.fa-solid.fa-user-lock.text-white:hover{
+    --bs-text-opacity: 1;
+    color: rgb(255, 0, 0)!important;
+}
+
+section.banner{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(/assets/img/Iglesia-Capuchinos.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-backgroud-size: cover;
+}
+
+h1.intro{
+    color: white;
+    padding-top: 6em;
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    
