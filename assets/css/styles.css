@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
 *{
     box-sizing: border-box;
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -10,7 +14,7 @@ html{
 body{
     font-family: 'Bodoni Condensed', 'Roboto', sans-serif;
     margin: 0;
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(255, 255, 255, 0.315);
 }
 
 h1{font-size: 3.5em;}
@@ -88,4 +92,22 @@ h3.intro{
     justify-content: center;
 }
 
+.experiencia.mt-5{
+    padding: 1rem;
+}
+
+
+
+.skills.mt-5{
+    background-color: rgb(29, 29, 29);
+    padding: 2em;
     
+}
+
+.skills.mt-5 h1{
+    color: aliceblue;
+}
+    
+    
+
+
