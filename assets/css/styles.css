@@ -109,13 +109,11 @@ h3.intro{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-
 }
 
 .skills.mt-5{
     background-color: rgb(29, 29, 29);
     padding: 1vw;
-    
 }
 
 .skills.mt-5 h1{
