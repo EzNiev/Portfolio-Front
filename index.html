@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <!-- NAVBAR -->
   <nav class="navbar navbar-dark bg-darkblue fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
@@ -35,6 +36,8 @@
       </ul>
     </div>
   </nav>
+  <!-- NAVBAR lateral -->
+  
   <!--Seccion Banner-->
   <section class="banner">
     <div class="container">
@@ -418,15 +421,21 @@
         </div>
       </div>
   </section>
+
+
   <!--Proyectos-->
-  <section class="proyectos mt-5">
-    <h1><a href="/Practica-1/index.html" target="_blank">WEB FULL RESPONSIVE HTML Y CSS</a></h1>
+  <section id="proyectos" class="proyectos mt-5">
+    <div class="container">
+      <h1 class="text-center">Proyectos</h1>
+      <div class="card" style="width: 18rem;">
+        <h3 class="text-center">Coming soon... </h3>
+        <img src="/assets/img/meme_proyectos.jpg" class="img-fluid rounded" alt="Meme Proyectos">
+        <div class="card-body">
+          <p class="card-text">Sección en proceso de desarrollo, disculpe las molestias.</p>
+        </div>
+      </div>
+    </div>
   </section>
-
-
-
-
-
 
 
   <!-- Ventana Login (Modal) -->
@@ -456,24 +465,23 @@
       </div>
     </div>
   </div>
-
+  <!-- Footer -->
   <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/eznievv/" role="button"
-          target="_blank">
-          <i class="fab fa-instagram"></i></a>
+        <a class="ig footer btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/eznievv/" role="button"
+          target="_blank"><i class="fab fa-instagram"></i></a>
 
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/nieva-ezequiel/"
+        <a class="lk footer btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/nieva-ezequiel/"
           role="button" target="_blank">
           <i class="fab fa-linkedin-in"></i></a>
 
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/EzNiev" role="button"
+        <a class="github footer btn btn-outline-light btn-floating m-1" href="https://github.com/EzNiev" role="button"
           target="_blank">
           <i class="fab fa-github"></i></a>
       </section>

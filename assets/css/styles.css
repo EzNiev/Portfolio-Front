@@ -37,20 +37,39 @@ a{
     --bs-list-group-bg: transparent;
 }
 
-i.fa-brands.fa-github.text-white:hover{
-    --bs-text-opacity: 1;
-    color: rgb(0, 233, 0)!important;
-}
-
 i.fa-brands.fa-instagram.text-white:hover{
     --bs-text-opacity: 1;
     color: rgb(255, 153, 0)!important;
+}
+
+.ig.footer.btn.btn-outline-light.btn-floating.m-1.btn-outline-light {
+    --bs-btn-hover-color: rgb(255, 153, 0);
+    --bs-btn-hover-bg: rgb(41, 41, 41);
+    --bs-btn-hover-border-color: rgb(255, 153, 0);
 }
 
 i.fa-brands.fa-linkedin-in.text-white:hover{
     --bs-text-opacity: 1;
     color: rgb(0, 174, 255)!important;
 }
+
+.lk.footer.btn.btn-outline-light.btn-floating.m-1.btn-outline-light {
+    --bs-btn-hover-color: rgb(0, 174, 255);
+    --bs-btn-hover-bg: rgb(41, 41, 41);
+    --bs-btn-hover-border-color: rgb(0, 174, 255);
+}
+
+i.fa-brands.fa-github.text-white:hover{
+    --bs-text-opacity: 1;
+    color: rgb(0, 233, 0)!important;
+}
+
+.github.footer.btn.btn-outline-light.btn-floating.m-1.btn-outline-light {
+    --bs-btn-hover-color: rgb(0, 233, 0);
+    --bs-btn-hover-bg: rgb(41, 41, 41);
+    --bs-btn-hover-border-color: rgb(0, 233, 0);
+}
+
 
 i.fa-solid.fa-user-lock.text-white:hover{
     --bs-text-opacity: 1;
@@ -147,6 +166,19 @@ h3.intro{
     font-size: 0.9rem;
 }
     
-    
+#proyectos .container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+}
+
+#proyectos img{
+    padding: 0.5em;
+}
+
 
 
